@@ -2,21 +2,52 @@ WLSTmatic
 =-=
 
 Contact
-Omar Carrasco <mers.carras at gmail.com>
-Felix Santillan <santillan.felix at gmail.com>
-Andres Aquino <andres.aquino at gmail.com>
+ * Omar Carrasco
+   mers.carras at gmail.com
+
+ * Felix Santillan
+   santillan.felix at gmail.com
+
+ * Daniel Gonzalez
+   dagonzalv at gmail.com
+
+ * Andres Aquino 
+   andres.aquino at gmail.com
 
 GitHub
-http://github.com/andresaquino/wlstmatic
+ * http://github.com/andresaquino/wlstmatic
 
+INFORMATION
+	Usar las banderas correspondientes para indicar que tipo de issue fue implementado
+		 DEFECT         : Report a Software Defect
+		 ENHANCEMENT    : Request for a Enhancement
+		 TASK           : Work item that change code or documentation
+		 REVIEW         : Request for a source code review
+		 OTHER          : Some other kind of issue
 
-Se acaban de agregar un py y shell que se encargan de crear dominios nuevos y hay una parte para inicializar el weblogic
-estoy trabajando en la parte de deploy, en cuanto ya quede la mejora la subo.Danyboy
+HISTORY
 
+Se acaban de agregar un py y shell que se encargan de crear dominios nuevos y hay una parte para
+inicializar el weblogic estoy trabajando en la parte de deploy, en cuanto ya quede la mejora la
+subo.
 
-<danyboy 2011-03-09 21:21 > Ya subi el archivo de deploy, revísenlo por fa manes y hagan sus pruebas en sus ambientes, para que estemos en el nmismo canal, solo falta hacer los paths dinámicos, si alguien le detecta algo de eso na mas lo suben va o lo checamos, por fa Android guianos con tu sabiduria jejeje, saludos.
+Ya probé el deploy en mi ambiente pero tiene los sig pendientes:
+1.- hayar una forma de leer los war o jar o ear de una carpeta y meterlos al for de la función de
+deploy del deploy.py.
+2.- hacer que los paths sean dinámicos para cualquier tipo de instalacion y no estar cambiando los
+paths en los archivos
+3.- estoy viendo la forma de meter los datos de conexion de forma dinámica en un properties pero
+estoy viendo si es viable o no
+4.- Solo comenté la parte de la creacion de dominios en el SH y habilite solo la de deploy por si
+instalan por primera vez un WL creen un dominio yo le puse wlsnxt2 y si lo cambian psss pongan el
+cambio en los paths de python
 
+Ya subi el archivo de deploy, revísenlo por fa manes y hagan sus pruebas
+en sus ambientes, para que estemos en el nmismo canal, solo falta hacer los paths dinámicos, si
+alguien le detecta algo de eso na mas lo suben va o lo checamos, por fa Android guianos con tu
+sabiduria jejeje, saludos.
 
+201103.09 - Danyboy
 
 
 # vim: set ts=3 et sw=3 sts=3 si ai tw=100 lbr:
