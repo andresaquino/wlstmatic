@@ -1,0 +1,36 @@
+=pod
+
+=head1 NAME
+
+  wlstmatic - guiones para la administracion de servidores basados en weblogic
+
+=head1 SYNOPSIS
+
+  wlstmatic  
+
+=head1 DESCRIPTION 
+ 
+  Aqui necesitamos poner documentacion de WLSTmatic.
+
+=head1 EXAMPLES
+
+  Ejemplos de uso para WLSTmatic.
+ 
+=head1 AUTHOR
+
+  wlstmatic v0.1
+  (c) 2011 Nextel de Mexico
+ 
+  Developed by 
+  Omar Carrasco
+  Felix Santillan
+  Daniel Gonzalez
+  Andres Aquino 
+
+=head1 BUGS
+
+  Claro.. agarre el bicho de su preferencia
+
+=cut
+
+# vim: set ts=2 sw=2 sts=2 et si ai:
