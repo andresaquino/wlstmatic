@@ -1,7 +1,9 @@
 WLSTmatic
 =-=
 
-Contact
+
+CONTACTS
+--------
  * Omar Carrasco
    mers.carras at gmail.com
 
@@ -14,10 +16,15 @@ Contact
  * Andres Aquino 
    andres.aquino at gmail.com
 
-GitHub
- * http://github.com/andresaquino/wlstmatic
+
+SOURCE
+------
+   [GitHub]       http://andresaquino.github.com/wlstmatic
+   [Bugtracker]   http://github.com/andresaquino/wlstmatic/issues
+
 
 INFORMATION
+-----------
 	Usar las banderas correspondientes para indicar que tipo de issue fue implementado
 		 DEFECT         : Report a Software Defect
 		 ENHANCEMENT    : Request for a Enhancement
@@ -25,8 +32,9 @@ INFORMATION
 		 REVIEW         : Request for a source code review
 		 OTHER          : Some other kind of issue
 
-HISTORY
 
+HISTORY
+-------
 Se acaban de agregar un py y shell que se encargan de crear dominios nuevos y hay una parte para
 inicializar el weblogic estoy trabajando en la parte de deploy, en cuanto ya quede la mejora la
 subo.
@@ -48,6 +56,18 @@ alguien le detecta algo de eso na mas lo suben va o lo checamos, por fa Android 
 sabiduria jejeje, saludos.
 
 201103.09 - Danyboy
+
+
+ROADMAP
+-------
+   v0.1
+      TASK: Leer el archivo de propiedades definido en el directorio config.
+      TASK: Conectarse al servidor de aplicaciones con el usuario/password.
+
+
+   v0.2
+
+   v0.3
 
 
 # vim: set ts=3 sw=3 sts=3 et si ai tw=100 lbr:
