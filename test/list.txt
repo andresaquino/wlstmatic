@@ -1,0 +1,4 @@
+/path/to/file-1.war
+/path/to/file-2.war
+/path/to/file-3.war
+/path/to/file-4.war

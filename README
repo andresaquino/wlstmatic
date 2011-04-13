@@ -61,8 +61,13 @@ sabiduria jejeje, saludos.
 ROADMAP
 -------
    v0.1
-      TASK: Leer el archivo de propiedades definido en el directorio config.
-      TASK: Conectarse al servidor de aplicaciones con el usuario/password.
+      * Leer el archivo de propiedades definido en el directorio config.
+      Para poder realizar las operaciones de creacion de dominios, jdbcs, jms, clusters sera
+      necesario definir un archivo de configuracion para poder operar sobre el dominio en cuestion,
+      ahora bien la estructura de ejemplo se encuentra en el config/doe-server.conf.
+
+      * Conectarse al servidor de aplicaciones con el usuario/password.
+      * 
 
 
    v0.2

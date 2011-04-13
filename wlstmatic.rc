@@ -2,26 +2,19 @@
 # vim: set ts=2 sw=2 sts=2 et si ai syntax=sh:
  
 # wlstmatic.rc - Main Setup of WLSTMatic
-# =-=
+# =
 #
 # Developer
-# Andres Aquino <aquino at hp.com>
+# Andres Aquino <aquino(at)hp.com>
 #
 
 
-WLNAME="soya"
-WLPATH=${HOME}/${WLNAME}
-WLLOGD=${HOME}/logs/${NAME}
+WLNAME="WLSTmatic"
 
-WL_BIN=
-WL_DOMAINS=
-JAVA_HOME=
-
-WL_HOME="${HOME}/apps/wl10mp3/wlserver_10.3"
-BEA_HOME="${HOME}/apps/wl10mp3/user_projects/domains"
-JAVA_HOME="${HOME}/apps/jdk1.6.0_24/bin"
+MD_HOME=${HOME}/Oracle/Middleware
+WL_HOME=${MD_HOME}/wlserver_10.3
+BEA_HOME=${WL_HOME}/user_projects/domains
+JAVA_HOME=/usr/lib/jvm/java-6-sun
 CLASSPATH=${WL_HOME}/server/lib/weblogic.jar:$CLASSPATH
-PATH=${WL_HOME}/server/lib/weblogic.jar:${JAVA_HOME}:${PATH}
-
 
 
